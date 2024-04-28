@@ -533,6 +533,9 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# Udfps
+TARGET_HAS_UDFPS := true
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-qti \
