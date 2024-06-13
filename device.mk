@@ -64,6 +64,7 @@ PRODUCT_PACKAGES += \
     libbatterylistener \
     libfmpal \
     libpalclient \
+    libaudioroute.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -132,6 +133,8 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7.vendor \
+    libexif.vendor \
+    liblz4.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_PACKAGES += \
@@ -403,7 +406,11 @@ PRODUCT_PACKAGES += \
     libjson \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti_vendor \
-    vendor.qti.hardware.systemhelper@1.0.vendor
+    vendor.qti.hardware.systemhelper@1.0.vendor \
+    libcurl.vendor \
+    libjsoncpp.vendor \
+    libnetutils.vendor \
+    libsqlite.vendor
 
 # Radio
 PRODUCT_PACKAGES += \
@@ -488,7 +495,8 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service-qti
+    android.hardware.usb@1.3-service-qti \
+    libusbhost.vendor
 
 PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
